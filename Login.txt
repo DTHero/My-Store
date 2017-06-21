@@ -1,0 +1,22 @@
+package com.example.internntthien.loginapp;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class Login extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
+        Intent intent = getIntent();
+        String username = intent.getStringExtra(MainActivity.user_to_main);
+        String password = intent.getStringExtra(MainActivity.pw_to_main);
+        TextView yun = (TextView) findViewById(R.id.yun);
+        TextView ypw = (TextView) findViewById(R.id.ypw);
+        yun.setText(username);
+        ypw.setText(password);
+    }
+}
