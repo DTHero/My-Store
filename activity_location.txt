@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:fillViewport="true"
+        tools:context=".MarkLocation">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        tools:context="com.example.internntthien.accountfacebook.MarkLocation" />
+        <TextView
+            android:id="@+id/titleTextNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/map"
+            android:text="NETWORK LOCATION"
+            android:textSize="10sp"/>
+        <TextView
+            android:id="@+id/longitudeTextNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleTextNetwork"
+            android:text="longitude"
+            android:textSize="10sp"/>
+        <TextView
+            android:id="@+id/longitudeValueNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleTextNetwork"
+            android:layout_toRightOf="@+id/longitudeTextNetwork"
+            android:paddingLeft="16dp"
+            android:text="0.0000"
+            android:textSize="10sp"/>
+        <TextView
+            android:id="@+id/latitudeTextNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleTextNetwork"
+            android:layout_toRightOf="@+id/longitudeValueNetwork"
+            android:text="latitude"
+            android:layout_marginLeft="50dp"
+            android:textSize="10sp"/>
+        <TextView
+            android:id="@+id/latitudeValueNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleTextNetwork"
+            android:layout_toRightOf="@+id/latitudeTextNetwork"
+            android:paddingLeft="16dp"
+            android:text="0.0000"
+            android:textSize="10sp"/>
+        <Button
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/latitudeValueNetwork"
+            android:text="Share location"/>
+        <Button
+            android:id="@+id/find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/latitudeValueNetwork"
+            android:layout_toRightOf="@+id/share"
+            android:text="Find your friends location!" />
+    </RelativeLayout>
