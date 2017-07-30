@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">ParentPortal</string>
+    <string name="regex_email_tma">^\\S+@tma.com.vn$</string>
+    <string name="regex_email_tma2">^[a-zA-Z0-9]+@tma.com.vn$</string>
+    <string name="error_regex_email_tma">email not valid</string>
+    <string name="hint_edt_password">Enter password</string>
+
+    <string name="home_title">PARENT PORTAL</string>
+
+    <!-- Student List -->
+    <string name="student_list_title">STUDENT LIST</string>
+    <string name="student_list_warning_waiting_approved">%s is waiting to be approved</string>
+    <string name="student_list_approved">Approved</string>
+    <string name="student_list_pending">Pending</string>
+    <string name="delivery_string"><![CDATA[Đơn hàng của bạn được<b><font color="#dd0014"> MIỄN PHÍ </font></b>giao hàng</b>]]></string>
+    <string name="student_list_student_id"><![CDATA[Student ID: <b>%s</b>]]></string>
+
+    <!-- General -->
+    <string name="general_ok">OK</string>
+    <string name="general_yes">Yes</string>
+    <string name="general_cancel">Cancel</string>
+    <string name="general_done">Done</string>
+    <string name="validate_password_not_match">Password is not match</string>
+    <string name="validate_email_invalid">Email is invalid</string>
+    <string name="validate_field_required">Field is required</string>
+    <string name="validate_network">Cannot connect to server, please check your network and try again</string>
+
+    <!--login page-->
+    <string name="login_name">Account</string>
+    <string name="login_password">Password</string>
+    <string name="login_remember_id">Remember my ID</string>
+    <string name="login_example_name">JSmith@gmail.com</string>
+    <string name="login_example_password">kkkkkkkkkk</string>
+    <string name="login_button_title">Login</string>
+    <string name="login_forgot_password">Forgot Password ?</string>
+    <string name="login_signup_title">Sign up</string>
+    <string name="login_email">E-mail</string>
+    <string name="login_error_email_pass_incorrect">Oops, email and password is incorrect</string>
+    <string name="login_error_email_not_confirmed">Your account was not confirmed, please check your email to complete the registration</string>
+
+    <!--login fail dialog-->
+    <string name="warning_login_failed">The error description.</string>
+    <!--students-->
+    <string name="name">Name</string>
+    <string name="through_audit">Through audit</string>
+
+    <!-- Home Menu-->
+    <string name="menu_home">Home</string>
+    <string name="menu_student_list">Student List</string>
+    <string name="menu_my_bus">My Bus</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_setting">Settings</string>
+
+    <!-- Edit Personal Info -->
+    <string name="edit_profile_title">PERSONAL INFORMATION</string>
+    <string name="edit_profile_first_name">First Name</string>
+    <string name="edit_profile_last_name">Last Name</string>
+    <string name="edit_profile_dob">DOB</string>
+    <string name="edit_profile_gender">Gender</string>
+    <string name="edit_profile_change_profile_title">Change Profile Photo</string>
+
+    <!--Forgot Password Page-->
+    <string name="forgot_password_login">Login</string>
+    <string name="forgot_password_title">forgot your password?</string>
+    <string name="forgot_password_snippet">Please enter your email below to receive your \npassword reset instructions</string>
+    <string name="submit_button">submit</string>
+    <string name="forgot_password_validate_email_failed">Your email address does not exist.</string>
+    <!--SignUp page-->
+    <string name="sign_up_back_login">Login</string>
+    <string name="sign_up_email">e-mail</string>
+    <string name="sign_up_password">password</string>
+    <string name="sign_up_re_password">re-password</string>
+    <string name="sign_up_first_name">first name</string>
+    <string name="sign_up_last_name">last name</string>
+    <string name="sign_up_button">sign up</string>
+    <string name="sign_up_validate_field_re_password_failed">Confirmation password is not matched</string>
+    <string name="sign_up_validate_successfully">Register successfully, please check your email to complete the registration</string>
+    <string name="sign_up_error_email_existed">Account is existing, please register with other email address</string>
+    <string name="alert_dialog_btn_ok">Ok</string>
+    <string name="sign_up_notification_congratulations">Congratulations, your account is activated completely</string>
+    <string name="sign_up_validate_password_not_match">8 characters, at least one capital letters and number</string>
+
+
+    <!--Fragment Home No Child Here-->
+    <string name="no_child_here_tv_notification_title">No child here!!!</string>
+    <string name="no_child_here_tv_notification_detail">Please submit an application via the\nschool website or fill out manually by\nvisiting the school district</string>
+    <string name="no_child_here_btn_add_student">add student</string>
+    <string name="no_child_here_student_list_title">student list</string>
+
+    <!--Fragment Home Settings-->
+    <string name="tv_settings_title">Settings</string>
+    <string name="tv_dob">dob</string>
+    <string name="tv_gender">Gender</string>
+    <string name="tv_setting_notification">Notification Setting</string>
+    <string name="tv_setting_payment">Payment</string>
+    <string name="tv_Setting_location">Location</string>
+    <string name="tv_setting_change_password">Change Password</string>
+    <string name="tv_setting_log_out">log out</string>
+
+    <!--Fragment Student Detail-->
+    <string name="tv_student_info">student information</string>
+    <string name="tv_student_info_student_id">Student ID :</string>
+    <string name="tv_student_info_schedule">Transportation Schedule</string>
+    <string name="tv_student_info_request">Transportation Request</string>
+    <string name="tv_student_info_history">Transportation History</string>
+    <string name="tv_student_info_where_my_bus">Where My Bus Is</string>
+
+    <!--Fragment No schedule here-->
+    <string name="tv_no_schedule_title">No schedule here!!!</string>
+    <string name="tv_no_schedule_message_detail">Your child are not assigned any route</string>
+    <string name="btn_no_schedule_request">add request</string>
+
+    <string name="transportation_schedule_notification">No schedule here!!!</string>
+    <string name="transportation_schedule_message_detail">Your child are not assigned any route</string>
+    <string name="transportation_schedule__btn_add_request">add request</string>
+    <string name="transportation_schedule_tile">transportation schedule</string>
+
+    <!--Where is bus-->
+    <string name="state_not_boarded_yet">Not boarded yet</string>
+    <string name="state_boarded">Boarded</string>
+    <string name="state_boarded_wrong">Boarded wrong stop</string>
+    <string name="state_boarded_early">Boarded (early)</string>
+    <string name="state_boarded_late">Boarded (late)</string>
+    <string name="state_missed_boarded">Missed boarding stop</string>
+    <string name="state_missed_disembarked">Missed disembark stop</string>
+    <string name="state_disembarked">Disembarked</string>
+    <string name="state_disembarked_early">Disembarked (early)</string>
+    <string name="state_disembarked_late">Disembarked (late)</string>
+    <string name="state_disembarked_wrong_stop">Disembarking at wrong stop</string>
+
+    <!--Fragment Transportation History-->
+    <string name="tv_history_title">transport history</string>
+    <string name="tv_history_from">From</string>
+    <string name="tv_history_to">to</string>
+    <string name="item_filter_today">Today</string>
+    <string name="item_filter_yesterday">Yesterday</string>
+    <string name="item_filter_last_month">Last month</string>
+    <string name="item_filter_last_year">Last year</string>
+    <string name="item_filter_time_range">Time range</string>
+    <string name="title_warning_compare_date_from_date_to">Warning Date Error</string>
+    <string name="message_warning_compare_date_from_date_to">FromDate must be less than ToDate</string>
+
+    <!--Add student-->
+    <string name="tv_add_student">Add student</string>
+    <string name="tv_student_id">Student ID</string>
+    <string name="tv_school">School</string>
+    <string name="hint_type_here">Type here</string>
+    <string name="hint_student_id">Type student ID</string>
+    <string name="hint_dob">Select date</string>
+    <string name="hint_school">Select school</string>
+    <string name="hint_gender">Select</string>
+    <string name="tv_cancel">Cancel</string>
+    <string name="tv_done">Done</string>
+    <string name="pick_image_intent_text">CHOOSE AN IMAGE</string>
+
+    <!--Add student dialogs-->
+    <string name="add_done">Your request is sent. Please waiting for approval.</string>
+    <string name="change_profile">Select section to change your profile picture!</string>
+    <string name="take_photo">Take photo</string>
+    <string name="choose_fromm_lib">Choose from library</string>
+    <string name="profile_firstname">First Name</string>
+    <string name="profile_lastname">Last Name</string>
+    <string name="profile_dob">DOB</string>
+    <string name="profile_gender">Gender</string>
+    <!--Select school-->
+    <string name="tv_map_view">Map view</string>
+
+
+</resources>
